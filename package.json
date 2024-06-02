@@ -1,0 +1,16 @@
+{
+  "name": "desktop-template",
+  "private": "true",
+  "type": "module",
+  "workspaces": [
+    "pkgs/*"
+  ],
+  "module": "index.ts",
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.5.14",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

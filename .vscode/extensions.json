@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "biomejs.biome",
+    "yoavbls.pretty-ts-errors",
+    "bradlc.vscode-tailwindcss",
+    "svelte.svelte-vscode",
+    "wallabyjs.console-ninja"
+  ]
+}
