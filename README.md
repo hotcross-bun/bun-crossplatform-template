@@ -26,7 +26,7 @@ Bun has helped me "just get started." I can't be bothered with node.js anymore b
 
 Tauri is the electron replacement that I have most experience with. Their Discord support is the best I've gotten out of any community I'm currently in and they have more of an approach to security than I do. The setup I have by default here might punch a hole through that, but that doesn't make me love them any less. Good people there, and it's the only way I've found to make desktop work nicely with web without being as bloated as electron.
 
-
+If you'd like to contribute, come chat with me in the [Discord](https://discord.gg/tg9ph67zTh)!
 
 To install all dependencies:
 
