@@ -2,19 +2,23 @@
 
 Monorepo setup for 
 
-- Common
+- `pkgs/common`
   - Bun
   - DrizzleORM
   - Biome
-- Web
+- `pkgs/web`
   - SvelteKit
   - TailwindCSS
-- Desktop
+- `pkgs/desktop`
   - Tauri!
-  - Electrobun?
-  - Raw webview?
-- Mobile
-  - `TBD?`
+  - *Electrobun?*
+  - *Raw webview?*
+- `pkgs/mobile`
+  - *Capacitor?*
+  - *React Native?*
+
+*\*tentative choices*
+
   
 These are just tools and technologies that I like and believe to be reliable for my own workflow. 
 This stack takes everything I have in mind into account (cross-platform, local-first, speed) which is why Biome and Bun have been chosen. 
