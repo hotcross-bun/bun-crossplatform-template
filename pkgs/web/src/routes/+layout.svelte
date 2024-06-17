@@ -1,7 +1,12 @@
 <script>
+	import { Toaster } from '$lib/components/ui/sonner';
 	import '../app.css';
 </script>
 
-<slot></slot>
+<div class="isolate">
+	<slot></slot>
+</div>
+
+<Toaster></Toaster>
 
 <style></style>

@@ -6,11 +6,14 @@ Monorepo setup for
   - Bun
   - DrizzleORM
   - Biome
+- `pkgs/server`
+  - Bun
 - `pkgs/web`
   - SvelteKit
   - TailwindCSS
-- `pkgs/desktop`
-  - Tauri!
+  - shadcn-svelte
+- `pkgs/desktop-*`
+  - Tauri (v1 and v2)
   - *Electrobun?*
   - *Raw webview?*
 - `pkgs/mobile`
