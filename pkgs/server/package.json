@@ -1,11 +1,19 @@
 {
   "name": "server",
-  "module": "index.ts",
-  "type": "module",
-  "devDependencies": {
-    "@types/bun": "latest"
+  "version": "1.0.50",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.ts",
+    "generate": "drizzle-kit generate",
+    "migrate": "bun run ./migrate"
   },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  }
+  "dependencies": {
+    "drizzle-orm": "^0.31.2",
+    "elysia": "latest"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "drizzle-kit": "^0.22.7"
+  },
+  "module": "src/index.js"
 }
