@@ -5,9 +5,13 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "bun run --watch src/index.ts",
     "generate": "drizzle-kit generate",
-    "migrate": "bun run ./migrate"
+    "migrate": "bun run ./migrate",
+    "build:windows-x64": "bun build --compile --target=bun-windows-x64 --minify --sourcemap ./src/index.ts --outfile ./build/server-x86_64-pc-windows-msvc.exe",
+    "build:linux": "bun build --compile --target=bun-linux-x64 --minify --sourcemap ./src/index.ts --outfile ./build/server-x86_64-unknown-linux-gnu",
+    "build:macos-intel": "bun build --compile --target=bun-darwin-x64 --minify --sourcemap ./src/index.ts --outfile ./build/server-x86_64-apple-darwin"
   },
   "dependencies": {
+    "@elysiajs/cors": "^1.0.2",
     "drizzle-orm": "^0.31.2",
     "elysia": "latest"
   },
